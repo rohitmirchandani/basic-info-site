@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Information Site</title>
+</head>
+<body>
+    <h1>Basic Information Site</h1>
+    <h2><a href='about'>About</a></h2>
+    <h2><a href='contact-me'>Contact Me</a></h2>
+    <style>
+        body,html{
+            height:100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to bottom , black , blue,black);
+        }
+        h1{
+            font-size: 50px;
+            color:white;
+        }
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+            text-decoration: none;
+            padding:20px;
+        }
+        a:hover,a:focus{
+            /* text-decoration: underline; */
+            transition-duration: 0.5s;
+            /* letter-spacing: 5px; */
+            background-color: black;
+        }
+    </style>
+</body>
+</html>
